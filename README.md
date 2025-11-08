@@ -51,6 +51,7 @@ cat < file2
 
 ## OUTPUT
 cat > file2
+
 <img width="224" height="144" alt="image" src="https://github.com/user-attachments/assets/2002d054-715f-4418-bda1-bcb268939837" />
 
 
