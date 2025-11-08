@@ -178,95 +178,71 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-```
-Hello world
-hello world
-```
+<img width="379" height="91" alt="image" src="https://github.com/user-attachments/assets/85407260-c470-4af3-a2f2-51329829cd6a" />
+
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="471" height="81" alt="image" src="https://github.com/user-attachments/assets/2a465a8e-b714-4205-a372-303d4f0795ff" />
 
-```
-Hello world
-hello world
-```
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
-```
-Hello world
-hello world
-```
+<img width="448" height="81" alt="image" src="https://github.com/user-attachments/assets/98f5aabc-f048-447f-bd7c-f455c2af93c7" />
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+<img width="412" height="56" alt="image" src="https://github.com/user-attachments/assets/065c3133-e2c9-4d50-bc83-57d86bf3b1a3" />
 
-```
-hello world
-```
 
 egrep '(world$)' newfile 
 ## OUTPUT
-```
-Hello world
-hello world
-```
+<img width="401" height="80" alt="image" src="https://github.com/user-attachments/assets/65ed6e74-9790-4539-a67e-a81416f5341b" />
+
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-```
-Linux is best in this World
-```
+
+<img width="414" height="72" alt="image" src="https://github.com/user-attachments/assets/7bc509df-869b-49d2-8f23-8bb6535e7447" />
+
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
-```
-Hello world
-hello world
-Linux is best in this World
-```
+<img width="391" height="102" alt="image" src="https://github.com/user-attachments/assets/2cfc5fdc-3d40-412c-8c09-8f693e768c54" />
+
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-```
-Linux is world number 1
-```
+<img width="304" height="60" alt="image" src="https://github.com/user-attachments/assets/b06c5a9a-62fe-4b30-a9c2-5a7bb6ba35a7" />
+
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-```
-Linux is world number 1
-```
+<img width="324" height="56" alt="image" src="https://github.com/user-attachments/assets/54d3c935-dba5-4399-b2c7-56e6be920697" />
+
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-```
-Linux is best in this World
-```
+<img width="345" height="76" alt="image" src="https://github.com/user-attachments/assets/439c2649-63d7-42d2-bf38-759ec62a048a" />
+
 
 
 egrep l{2} newfile
 ## OUTPUT
 
-```
-Hello world
-hello world
-```
+<img width="269" height="81" alt="image" src="https://github.com/user-attachments/assets/d974b41f-6030-4526-97da-83c9745e1e96" />
+
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-```
-Linux is world number 1
-Unix is predecessor
-Linux is best in this World
-```
+<img width="319" height="100" alt="image" src="https://github.com/user-attachments/assets/efa40ff0-4278-4a85-a54b-f56b961dca06" />
+
 
 cat > file23
 ```
