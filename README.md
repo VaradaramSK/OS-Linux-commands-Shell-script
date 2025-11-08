@@ -43,13 +43,8 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-```
-chanchal singhvi
-c.k. shukla
-s.n. dasgupta
-sumit chakrobarty
-^d
-```
+<img width="257" height="127" alt="image" src="https://github.com/user-attachments/assets/f5ad22c2-0744-48c8-86d6-dcfe845232f1" />
+
 
 
 cat < file2
@@ -73,17 +68,8 @@ file1 file2 differ: char 1, line 1
 
 comm file1 file2
  ## OUTPUT
-```
-        anil aggarwal
-        barun sengupta
-        c.k. shukla
-chanchal singhvi
-c.k. shukla
-        lalit chowdury
-                s.n. dasgupta
- 
-sumit chakrobarty
-```
+<img width="224" height="144" alt="image" src="https://github.com/user-attachments/assets/fcc96c1d-f59f-4936-95c0-b528051b9ba4" />
+
  
 diff file1 file2
 ## OUTPUT
