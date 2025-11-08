@@ -50,21 +50,14 @@ cat < file1
 cat < file2
 ## OUTPUT
 cat > file2
-```
-anil aggarwal
-barun sengupta
-c.k. shukla
-lalit chowdury
-s.n. dasgupta
-^d
-```
+<img width="224" height="144" alt="image" src="https://github.com/user-attachments/assets/2002d054-715f-4418-bda1-bcb268939837" />
+
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ```
-file1 file2 differ: char 1, line 1
-```
+ <img width="316" height="139" alt="image" src="https://github.com/user-attachments/assets/34a86adb-68bd-408b-a478-5f4570ba70ef" />
+
 
 comm file1 file2
  ## OUTPUT
