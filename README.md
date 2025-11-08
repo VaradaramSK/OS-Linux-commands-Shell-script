@@ -359,13 +359,8 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-```
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-1004 | Sit |  7000 | Dev
-1005 | Sam |  5000 | HR
-```
+<img width="301" height="133" alt="image" src="https://github.com/user-attachments/assets/ed87e3f7-ca64-484a-8c21-76279c0199a3" />
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -377,29 +372,15 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-```
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-1005 | Sam |  5000 | HR
-1004 | Sit |  7000 | Dev
-```
+<img width="266" height="129" alt="image" src="https://github.com/user-attachments/assets/12e30a76-cec4-4c94-9a9c-4164347d7f7d" />
+
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-```
-1001 | RAM | 10000 | HR
-1001 | RAM | 10000 | HR
-1002 | TOM |  5000 | ADMIN
-1003 | JOE |  7000 | DEVELOPER
-1005 | SAM |  5000 | HR
-1004 | SIT |  7000 | DEV
-1003 | JOE |  7000 | DEVELOPER
-1001 | RAM | 10000 | HR
+<img width="377" height="191" alt="image" src="https://github.com/user-attachments/assets/77081f45-38de-4a5d-a20a-cb634a46e204" />
 
-```
 
 cat < urllist.txt
 ```
@@ -417,38 +398,21 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-```
+<img width="298" height="118" alt="image" src="https://github.com/user-attachments/assets/e5a5c71c-d3d8-4718-97d2-d5ad600e2b50" />
 
-www.yahoo.com
-www.google.com
-www.mrcet....com
-```
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-```
-www.yahoo.com
-www.google.com
-www.mrcet.com
-```
+<img width="419" height="108" alt="image" src="https://github.com/user-attachments/assets/9feaa6f2-4a77-4507-b3dc-21557e8b69ac" />
+
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-```
-bench.py
-file21
-file22
-file23
-hello.c
-hello.js
-newfile
-readme.txt
-urllist.txt
+<img width="570" height="733" alt="image" src="https://github.com/user-attachments/assets/9346e8a9-2116-46a3-bf9b-0a9fb4af4ba0" />
 
-```
 
 
 
@@ -458,22 +422,22 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-```
-tar: can't open 'backup.tar': No such file or directory
-```
+<img width="754" height="444" alt="image" src="https://github.com/user-attachments/assets/b1f3b1cb-e02f-4bed-ad99-5a6940047124" />
+
 tar -xvf backup.tar
 ## OUTPUT
-```
-tar: can't open 'backup.tar': No such file or directory
-```
+<img width="412" height="454" alt="image" src="https://github.com/user-attachments/assets/6f383123-8394-4510-8e2e-2132887afd55" />
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="274" height="71" alt="image" src="https://github.com/user-attachments/assets/25e15d2e-f4bd-4e6c-8b29-92c6608acbcc" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="301" height="52" alt="image" src="https://github.com/user-attachments/assets/1941d9bc-d303-40db-841d-cc40dabeb736" />
 
  
 # Shell Script
