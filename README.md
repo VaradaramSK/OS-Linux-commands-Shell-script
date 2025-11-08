@@ -61,24 +61,15 @@ cmp file1 file2
 
 comm file1 file2
  ## OUTPUT
-<img width="224" height="144" alt="image" src="https://github.com/user-attachments/assets/fcc96c1d-f59f-4936-95c0-b528051b9ba4" />
+<img width="428" height="245" alt="image" src="https://github.com/user-attachments/assets/97d4034d-af70-47a8-a14b-e6a5ffe596e4" />
+
 
  
 diff file1 file2
 ## OUTPUT
-```
---- file1
-+++ file2
-@@ -1,4 +1,6 @@
--chanchal singhvi
-+anil aggarwal
-+barun sengupta
- c.k. shukla
-+lalit chowdury
- s.n. dasgupta
--sumit chakrobarty
-+
-```
+
+<img width="409" height="252" alt="image" src="https://github.com/user-attachments/assets/07cbcaf4-76cd-4513-8743-196ea6933987" />
+
 
 #Filters
 
