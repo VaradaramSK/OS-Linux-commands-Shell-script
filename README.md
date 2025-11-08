@@ -260,167 +260,93 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-```
-1002 | tom |  5000 | Admin
+<img width="305" height="63" alt="image" src="https://github.com/user-attachments/assets/c29e0957-1aa1-4d30-ac94-54aebf8475ae" />
 
-```
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-```
-1001 | Ram | 10000 | HR
-
-```
+<img width="364" height="71" alt="image" src="https://github.com/user-attachments/assets/58979690-7655-4365-8acb-42e372ce8056" />
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-```
-1001 | Sita | 10000 | HR
-1001 | Sita | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-1005 | Sam |  5000 | HR
-1004 | Sit |  7000 | Dev
-1003 | Joe |  7000 | Developer
-1001 | Sita | 10000 | HR
-```
+<img width="331" height="193" alt="image" src="https://github.com/user-attachments/assets/14c17d9c-fa17-4528-a81e-a551f86f982a" />
+
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-```
-1001 | Ram | 10000 | HR
-1001 | Sita | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-1005 | Sam |  5000 | HR
-1004 | Sit |  7000 | Dev
-1003 | Joe |  7000 | Developer
-1001 | Ram | 10000 | HR
-```
+<img width="347" height="193" alt="image" src="https://github.com/user-attachments/assets/649b2753-9246-4003-90cc-77e0d45f275a" />
+
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-```
-1001 | Ram | 10000 | HR
-1001 | Ram | 10000 | HR
-1002 | tom |  6000 | Admin
-1003 | Joe |  7000 | Developer
-1005 | Sam |  5000 | HR
-1004 | Sit |  7000 | Dev
-1003 | Joe |  7000 | Developer
-1001 | Ram | 10000 | HR
-```
+<img width="346" height="196" alt="image" src="https://github.com/user-attachments/assets/4d6d28ce-8e77-41ef-91d8-aa1b41b2c282" />
+
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-```
-1001 | Ram | 10000 | HR
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-1005 | Sam |  5000 | HR
-```
+<img width="342" height="131" alt="image" src="https://github.com/user-attachments/assets/3dc4cc1f-7f89-4d43-a4d2-3c3176383243" />
+
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-```
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-```
+<img width="383" height="106" alt="image" src="https://github.com/user-attachments/assets/44d1a35a-0361-4800-a12b-516059598fc5" />
+
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-```
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-```
+<img width="336" height="81" alt="image" src="https://github.com/user-attachments/assets/ff344088-9477-48d8-99ad-1fb2cfa29bfc" />
+
 seq 10 
 ## OUTPUT
 
-```
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-```
+<img width="274" height="220" alt="image" src="https://github.com/user-attachments/assets/dbf44be7-f8c0-4c7c-b0f2-f8eed17a31bc" />
+
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-```
-4
-5
-6
-```
+<img width="294" height="95" alt="image" src="https://github.com/user-attachments/assets/194b01c2-d93c-4424-99e6-02fb1b883ebe" />
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-```
-sed: no address after comma
-```
+<img width="295" height="92" alt="image" src="https://github.com/user-attachments/assets/d1c0cd16-e88d-4841-98c8-3ff59979e459" />
+
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-```
-1
-2
-hello
-3
-```
+<img width="258" height="118" alt="image" src="https://github.com/user-attachments/assets/4ee56ba2-156e-42ba-a7dd-7443406df104" />
+
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-```
-1
-hello
-2
+<img width="264" height="90" alt="image" src="https://github.com/user-attachments/assets/a8c69cd9-25e8-4a13-b30b-dbe6d9790b8e" />
 
-```
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
-```
+<img width="326" height="89" alt="image" src="https://github.com/user-attachments/assets/89c9bcef-9236-4c34-86d9-fb34a31c72bb" />
 
-1
-hello
-10
-```
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-```
-$1001 | Ram | 10000 | HR
-$1002 | tom |  5000 | Admin
-$1003 | Joe |  7000 | Developer
+<img width="361" height="96" alt="image" src="https://github.com/user-attachments/assets/2ae3e5d6-27a6-45ba-a5f2-1795c09016dd" />
 
-```
 sed -n '2,4{s/$/*/;p}' file23
 ## OUTPUT
-```
+<img width="402" height="104" alt="image" src="https://github.com/user-attachments/assets/0bfb9364-6ec6-4c25-b6c9-e21f32a250a0" />
 
-1001 | Ram | 10000 | HR*
-1002 | tom |  5000 | Admin*
-1003 | Joe |  7000 | Developer*
-```
 
 #Sorting File content
 cat > file21
