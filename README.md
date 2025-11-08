@@ -448,29 +448,17 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-```
-hello in this world
-i ccant stop
-for this non stop movement
-stop
+<img width="479" height="118" alt="image" src="https://github.com/user-attachments/assets/deecf525-3538-4dd0-9971-8ebf35f63796" />
 
-```
  
 cat << stop > herecheck.txt
-```
-hello in this world
-i cant stop
-for this non stop movement
-stop
-```
+
+
 
 cat herecheck.txt
 ## OUTPUT
-```
-hello in this world
-i cant stop
-for this non stop movement
-```
+<img width="282" height="90" alt="image" src="https://github.com/user-attachments/assets/62f1a6a0-cac2-4004-8a08-796a18ecdba6" />
+
 
 
 cat < scriptest.sh 
