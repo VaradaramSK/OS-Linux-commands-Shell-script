@@ -94,29 +94,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-```
-Hel
-Thi
-```
+<img width="235" height="103" alt="image" src="https://github.com/user-attachments/assets/23059c75-9996-45cb-b9b9-93e066ebe948" />
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-```
-1001
-1002
-1003
-```
+<img width="326" height="116" alt="image" src="https://github.com/user-attachments/assets/29cc4769-665b-4656-98c3-e46ee2ea92aa" />
+
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-```
- Ram
- tom
- Joe
-```
+<img width="325" height="109" alt="image" src="https://github.com/user-attachments/assets/16c5e3b7-3b66-4fcd-84db-c7614d4976ce" />
+
 cat < newfile 
 ```
 Hello world
@@ -129,53 +120,42 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-```
-Hello world
-```
+<img width="257" height="71" alt="image" src="https://github.com/user-attachments/assets/2d5c35e4-7b6f-433d-8cb7-8715841df1fd" />
+
 
 
 grep hello newfile 
 ## OUTPUT
+<img width="318" height="56" alt="image" src="https://github.com/user-attachments/assets/90fb65c2-55e1-4b58-aac2-150bed42b972" />
 
-
-```
-hello world
-```
 
 grep -v hello newfile 
 ## OUTPUT
-```
-Hello world
-```
+<img width="315" height="70" alt="image" src="https://github.com/user-attachments/assets/ebf14b2b-536c-4a7f-b694-5ca656d85fbf" />
+
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-```
-Hello world
-hello world
+<img width="370" height="81" alt="image" src="https://github.com/user-attachments/assets/47767e65-2487-4c4a-a73f-b8c0457d6778" />
 
-````
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-```
-2
-```
+<img width="428" height="70" alt="image" src="https://github.com/user-attachments/assets/54b3a5f0-29a4-4a2d-baf3-4e4ffa20598c" />
 
 
+grep -R ubuntu /etc
 
 
+<img width="932" height="603" alt="image" src="https://github.com/user-attachments/assets/35065331-2937-4b9d-8a4b-c9ccb76d9384" />
 
 
 grep -w -n world newfile   
 ## OUTPUT
-```
-1:Hello world
-2:hello world
-```
+<img width="390" height="81" alt="image" src="https://github.com/user-attachments/assets/09a3bbda-3187-496f-8be9-fce6a0fcfcfe" />
+
 
 cat < newfile 
 ```
